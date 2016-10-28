@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetocos2016-adriana_claudia_murilo.CSharp.Plugins", "projetocos2016-adriana_claudia_murilo.CSharp.Plugins.csproj", "{DECC3FED-3298-B482-2F48-4C7CF68C7A8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "projetocos2016-adriana_claudia_murilo.CSharp", "projetocos2016-adriana_claudia_murilo.CSharp.csproj", "{8E7891F7-F5A2-1600-614C-B1972C9A1835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DECC3FED-3298-B482-2F48-4C7CF68C7A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECC3FED-3298-B482-2F48-4C7CF68C7A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECC3FED-3298-B482-2F48-4C7CF68C7A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECC3FED-3298-B482-2F48-4C7CF68C7A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E7891F7-F5A2-1600-614C-B1972C9A1835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E7891F7-F5A2-1600-614C-B1972C9A1835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E7891F7-F5A2-1600-614C-B1972C9A1835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E7891F7-F5A2-1600-614C-B1972C9A1835}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

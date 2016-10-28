@@ -5,16 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{4311DEE7-ECD3-3873-C277-D6347E952964}</ProjectGuid>
+    <ProjectGuid>{8E7891F7-F5A2-1600-614C-B1972C9A1835}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>GamePlugins:3</UnityProjectType>
+    <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.3.0f4</UnityVersion>
     <RootNamespace></RootNamespace>
@@ -58,6 +58,12 @@
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
@@ -66,8 +72,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\MeshExtrusion.cs" />
-    <Compile Include="Assets\Plugins\Perlin.cs" />
+    <ProjectReference Include="projetocos2016-adriana_claudia_murilo.CSharp.Plugins.csproj">
+      <Project>{DECC3FED-3298-B482-2F48-4C7CF68C7A8C}</Project>
+      <Name>projetocos2016-adriana_claudia_murilo.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\BehaviourFireBall.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\BubbleEnergy.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\BubbleParentObjects.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\CameraFollow2D.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\DestroyTimer.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\EndLevel.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\FollowWaypoints.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\GameManager.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\GameMusicManager.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\GenerateWaypoints.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\GotoScene.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\HSBColor.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\MenuCamera.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\PlaySoundOnTriggerEnter.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\Player2D.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\QuitApplication.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\SliderInputFieldPlayerPrefs.cs" />
+    <Compile Include="Assets\ProcBubbleMaze\Scripts\UtilFiles.cs" />
+    <Compile Include="Assets\ProceduraMapX\Scripts\MapGenerator.cs" />
+    <Compile Include="Assets\ProceduraMapX\Scripts\MeshGenerator.cs" />
+    <Compile Include="Assets\ProceduraMapX\Scripts\MutateBehaviour.cs" />
+    <Compile Include="Assets\ProceduraMapX\Scripts\MutateMaterial.cs" />
+    <Compile Include="Assets\ProceduraMapX\Scripts\MutateTexture.cs" />
+    <Compile Include="Assets\ProceduraMapX\Scripts\PlaceBehaviour.cs" />
+    <Compile Include="Assets\ProceduraMapX\Scripts\PlaceBehaviourFirstFar.cs" />
+    <Compile Include="Assets\ProceduraMapX\Scripts\PlaceObjectMap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ProcBubbleMaze\Audios\_readme_and_license.txt" />
